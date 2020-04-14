@@ -19,7 +19,7 @@
 
 - detect object with SSD
 - Implement SORT algorithm
-- 
+- Real time transport control protocol 
 
 
 
@@ -39,7 +39,9 @@
 - without GPU acceleration 
 - with GPU CUDA accceleration 
 
-[Imgur](https://i.imgur.com/2Mh7B9B.mp4)
+
+![Alt Text](https://i.imgur.com/2Mh7B9B.mp4)
+![Alt Text](demos/gpu.gif)
 
 
 
