@@ -39,6 +39,8 @@
 - without GPU acceleration 
 - with GPU CUDA accceleration 
 
+<a href="https://imgur.com/2Mh7B9B"><img src="https://i.imgur.com/2Mh7B9B.mp4" title="source: imgur.com" /></a>
+
 
 
 #### resource 
