@@ -40,7 +40,7 @@
 - with GPU CUDA accceleration 
 
 
-![Alt Text](https://i.imgur.com/2Mh7B9B.mp4)
+
 ![Alt Text](demos/gpu.gif)
 
 
