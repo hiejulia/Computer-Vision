@@ -71,5 +71,22 @@ def illustrate_box(image: np.ndarray, box: np.ndarray, caption: str) -> None:
     TEXT_COLOR,
     2)
 
-    
+
+
+
+# Detections 
+def illustrate_detections(dets: np.ndarray, frame: np.ndarray) -> np.ndarray:
+    class_ids, scores, boxes = dets[:, 0], dets[:, 1], dets[:, 2:6]
+    for class_id, score, box in zip(class_ids, scores, boxes):
+        illustrate_box(frame, box, f"{CLASSES_90[int(class_id)]} {score:.2f}")
+    return frame
+
+
+
+
+# Connect to Camera
+cap = cv2.VideoCapture(args.input)
+
+
+
 
